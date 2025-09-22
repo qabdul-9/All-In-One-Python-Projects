@@ -39,6 +39,11 @@ leap_year = judge_leap_year(localtime.tm_year)
 for m in range(1, localtime.tm_mon):
     day = day + month_days(m, leap_year)
 
+leap_years = year/4
 day = day + localtime.tm_mday
+hours = day * 60
+
 print("\n\t%s's age is %d years or " % (name, year), end="")
-print("%d months or %d days" % (month, day))
+print("%d months or %d days or %d hours" % (month, day, hours))
+print("and %d of those years were leap years" % leap_years)
+
