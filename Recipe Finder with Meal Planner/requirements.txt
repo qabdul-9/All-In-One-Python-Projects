@@ -1,0 +1,3 @@
+Spoonacular API
+Python
+Requests library
