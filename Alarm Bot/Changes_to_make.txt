@@ -1,0 +1,4 @@
+Add variation of alarm that displays standard time
+
+Additional(optional) suggestion:
+    Add function to keep track of differences in time zones
